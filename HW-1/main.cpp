@@ -44,7 +44,13 @@ void exercise2()
 
 void exercise3()
 {
+	int number; // Создаём переменную
 
+	std::cout << "Введите двузначное число: ";
+	std::cin >> number; // Считываем число
+
+	// Проверка: выводим то, что ввёл пользователь
+	std::cout << "Вы ввели: " << number << std::endl;
 }
 
 int main()
