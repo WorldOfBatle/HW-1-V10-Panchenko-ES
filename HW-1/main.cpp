@@ -2,7 +2,7 @@
 #include <cmath>      // для fabs, pow
 #include <iomanip>    // для форматирования вывода
 
-int main()
+void exercise1()
 {
 	double x; // Объявляем переменную x
 
@@ -23,6 +23,17 @@ int main()
 
 	// Вывод результата с форматированием
 	std::cout << std::fixed << std::setprecision(3) << "Результат = " << result << std::endl;
+}
+
+void exercise2()
+{
+
+}
+
+int main()
+{
+	exercise1();
+	exercise2();
 
 	return 0;
 }
