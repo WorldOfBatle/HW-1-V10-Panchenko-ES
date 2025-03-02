@@ -27,7 +27,13 @@ void exercise1()
 
 void exercise2()
 {
+	double v; // Объявляем переменную v
 
+	std::cout << "Введите объем куба (v): ";
+	std::cin >> v; // Считываем v
+
+	// Проверка: выводим то, что ввёл пользователь
+	std::cout << "Вы ввели v = " << v << std::endl;
 }
 
 int main()
