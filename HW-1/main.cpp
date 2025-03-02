@@ -51,6 +51,18 @@ void exercise3()
 
 	// Проверка: выводим то, что ввёл пользователь
 	std::cout << "Вы ввели: " << number << std::endl;
+
+	// Берём модуль числа, чтобы работать с положительными цифрами
+	int absNumber = std::abs(number);
+
+	// Извлекаем цифры
+	int digit1 = absNumber / 10; // десятки
+	int digit2 = absNumber % 10; // единицы
+
+	// Сумма цифр
+	int sum = digit1 + digit2;
+
+	std::cout << "Сумма цифр = " << sum << std::endl;
 }
 
 int main()
