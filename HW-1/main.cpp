@@ -42,10 +42,16 @@ void exercise2()
 	std::cout << std::fixed << std::setprecision(3) << "Ребро куба (a) = " << a << std::endl;
 }
 
+void exercise3()
+{
+
+}
+
 int main()
 {
 	exercise1();
 	exercise2();
+	exercise3();
 
 	return 0;
 }
